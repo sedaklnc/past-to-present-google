@@ -7,8 +7,10 @@ body{
     background-image: url('../img/google.jpg');
     background-repeat: no-repeat;
     background-position: top center;
+    
 }
 
+/*First part is started */
 nav{
     width: 1300px;
     height: 70px;
@@ -16,15 +18,14 @@ nav{
     text-align: center;
     background-color: #eeeeee;
     margin: 160px auto;
+   
 }
 
 form{
     width: 410px;
     height: 80px;
     display: inline-block;
-  
-
-    
+ 
 }
 input[name='q']{
     width: 400px;
@@ -32,3 +33,48 @@ input[name='q']{
 form input{
     padding: 2px;
 }
+/*First part is ended */
+
+/* second part is started*/
+
+div#info-part{
+    width: 1300px;
+    height: 300px;
+    position: absolute;
+    top: 230px;
+    display: inline-flex;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 120px;
+    margin-top: 2px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+#speacial-search
+{
+    width: 620px;
+    height: 70px;
+    text-align: center;
+    background-color: #7de5da;
+    margin-right: 1px;
+    padding-top: 10px;
+}
+#second-part{
+    width: 330px;
+    height: 70px;
+    margin-right: 2px;
+    text-align: center;
+    background-color: #70cbc2;
+    font-size: small;
+    padding-top: 10px;
+    
+}
+
+
+#mail-part{
+    width: 800px;
+    height: 80px;
+    text-align: center;
+    background-color: #62b3aa;
+}
+
