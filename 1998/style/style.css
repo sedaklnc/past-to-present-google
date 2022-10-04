@@ -36,7 +36,6 @@ form input{
 /*First part is ended */
 
 /* second part is started*/
-
 div#info-part{
     width: 1300px;
     height: 300px;
@@ -47,8 +46,7 @@ div#info-part{
     justify-content: space-evenly;
     margin-left: 120px;
     margin-top: 2px;
-    font-family:'Times New Roman', Times, serif;
-    
+    font-family:'Times New Roman', Times, serif; 
 }
 #speacial-search
 {
@@ -69,12 +67,19 @@ div#info-part{
     padding-top: 10px;
     
 }
-
-
 #mail-part{
     width: 800px;
     height: 80px;
     text-align: center;
     background-color: #62b3aa;
 }
-
+/* second part is finish*/
+/*footer part is started */
+footer{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top: 350px;
+    margin-left: 660px;
+    font-size: 12px;
+}
