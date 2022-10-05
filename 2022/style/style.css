@@ -49,8 +49,7 @@ img{
     position: absolute;
 }
 /*img part is ended */
-
-
+/*search part is started*/
 div#search-part{
     width: 800px;
     height: 100px;
@@ -60,23 +59,27 @@ div#search-part{
     text-align: center;
     display: flex
 }
+
 form{
     display: inline-block;
 }
 
 input[name='q']{
     width: 700px;
-    height: 50px;
+    height: 20px;
     border-radius: 30px;
     border: 1px solid #eeee;
-    
+    font-size: 16px;    
+    padding: 15px 10px;
 }
-
+::placeholder{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+}
 input[name='q']:hover{
     box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
-
 }
-
 
 form :nth-child(n+2){
     width: 150px;
@@ -92,3 +95,4 @@ form :nth-child(n+2):hover{
     box-shadow: 1px 2px 3px 4px rgba(20,20,20,0.4);
 
 }
+/*search part is ended*/
